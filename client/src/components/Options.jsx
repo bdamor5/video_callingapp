@@ -75,7 +75,7 @@ const Options = ({ children }) => {
                   fullWidth
                   startIcon={<Assignment fontSize="large" />}
                 >
-                  Copy Your ID
+                  Copy Your Call ID
                 </Button>
               </CopyToClipboard>
                {/*text = {me} , i.e our socket.id will be copied when clicked on 'copy to clipboard' button  */}
@@ -108,7 +108,7 @@ const Options = ({ children }) => {
                 <Button
                   variant="contained"
                   color="primary"
-                  startIcon={<PhoneDisabled fontSize="large" />}
+                  startIcon={<Phone fontSize="large" />}
                   fullWidth
                   onClick={() => callUser(idToCall)}
                   //passing the user's id to callUser() , which is initiating the call
